@@ -1,0 +1,140 @@
+Genre
+BookDetial
+Customer
+Order
+OrderItem
+
+
+{
+  "isActive": true,
+  "isDeleted": true,
+  "bookId": 0,
+  "genreId": 0,
+  "publisherId": 0,
+  "publisher": {
+    "isActive": true,
+    "isDeleted": true,
+    "publisherId": 0,
+    "name": "string",
+    "location": "string",
+    "books": [
+      "string"
+    ]
+  },
+  "bookDetailId": 0,
+  "bookDetail": {
+    "isActive": true,
+    "isDeleted": true,
+    "bookDetailId": 0,
+    "numberOfChapters": 0,
+    "numberOfPages": 0,
+    "weight": 0,
+    "isEbook": true,
+    "book": "string"
+  },
+  "title": "string",
+  "description": "string",
+  "photo": "string",
+  "isbn": "stringstri",
+  "publishDateTime": "2022-07-07T20:34:02.070Z",
+  "price": 0,
+  "quantity": 0,
+  "genre": {
+    "isActive": true,
+    "isDeleted": true,
+    "genreId": 0,
+    "name": "string",
+    "books": [
+      "string"
+    ]
+  },
+  "bookAuthors": [
+    {
+      "isActive": true,
+      "isDeleted": true,
+      "authorId": 0,
+      "bookId": 0,
+      "book": "string",
+      "author": {
+        "isActive": true,
+        "isDeleted": true,
+        "authorId": 0,
+        "firstName": "string",
+        "lastName": "string",
+        "emailAddress": "user@example.com",
+        "profilePhoto": "string",
+        "location": "string",
+        "bookAuthors": [
+          "string"
+        ]
+      }
+    }
+  ]
+}
+
+{
+  "isActive": true,
+  "isDeleted": true,
+  "bookId": 0,
+  "genreId": 0,
+  "publisherId": 0,
+  "publisher": {
+    "isActive": true,
+    "isDeleted": true,
+    "publisherId": 0,
+    "name": "string",
+    "location": "string",
+    "books": [
+      "string"
+    ]
+  },
+  "bookDetailId": 0,
+  "bookDetail": {
+    "isActive": true,
+    "isDeleted": true,
+    "bookDetailId": 0,
+    "numberOfChapters": 0,
+    "numberOfPages": 0,
+    "weight": 0,
+    "isEbook": true,
+    "book": "string"
+  },
+  "title": "string",
+  "description": "string",
+  "photo": "string",
+  "isbn": "stringstri",
+  "publishDateTime": "2022-07-07T20:37:05.712Z",
+  "price": 0,
+  "quantity": 0,
+  "genre": {
+    "isActive": true,
+    "isDeleted": true,
+    "genreId": 0,
+    "name": "string",
+    "books": [
+      "string"
+    ]
+  },
+  "bookAuthors": [
+    {
+      "isActive": true,
+      "isDeleted": true,
+      "authorId": 0,
+      "bookId": 0,
+      "book": "string",
+      "author": {
+        "isActive": true,
+        "isDeleted": true,
+        "authorId": 0,
+        "firstName": "string",
+        "lastName": "string",
+        "emailAddress": "user@example.com",
+        "profilePhoto": "string",
+        "location": "string",
+        "bookAuthors": [
+          "string"
+        ]
+      }
+    }
+  ]
+}

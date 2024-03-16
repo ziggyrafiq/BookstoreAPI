@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LH.Api</name>
+    </assembly>
+    <members>
+        <member name="M:LH.Api.Attributes.ValidateModelStateAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            Called before the action method is invoked
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:LH.Api.Controllers.DefaultApiController.CreateBook(LH.Infrastructure.Dto.BookDto)">
+            <summary>
+            Creates a new book
+            </summary>
+            <description>Hello World</description>
+            <param name="body">A JSON object that represents a book.</param>
+            <response code="201">Created</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:LH.Api.Controllers.DefaultApiController.DeleteBookById(System.Nullable{System.Int64})">
+            <summary>
+            Deletes a book by id
+            </summary>
+            <param name="id"></param>
+            <response code="200">Success</response>
+            <response code="404">Book not found</response>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:LH.Api.Controllers.DefaultApiController.GetBook(System.String)" -->
+        <member name="M:LH.Api.Controllers.DefaultApiController.GetBookById(System.Nullable{System.Int64})">
+            <summary>
+            Gets a book by id
+            </summary>
+            <param name="id"></param>
+            <response code="200">Success</response>
+            <response code="404">Book not found</response>
+        </member>
+        <member name="M:LH.Api.Controllers.DefaultApiController.UpdateBookById(LH.Infrastructure.Dto.BookDto,System.Nullable{System.Int64})">
+            <summary>
+            Update an existing book
+            </summary>
+            <param name="body">A JSON object that represents a book.</param>
+            <param name="id"></param>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="404">Book not found</response>
+        </member>
+        <member name="T:LH.Api.Filters.BasePathFilter">
+            <summary>
+            BasePath Document Filter sets BasePath property of Swagger and removes it from the individual URL paths
+            </summary>
+        </member>
+        <member name="M:LH.Api.Filters.BasePathFilter.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="basePath">BasePath to remove from Operations</param>
+        </member>
+        <member name="P:LH.Api.Filters.BasePathFilter.BasePath">
+            <summary>
+            Gets the BasePath of the Swagger Doc
+            </summary>
+            <returns>The BasePath of the Swagger Doc</returns>
+        </member>
+        <member name="M:LH.Api.Filters.BasePathFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <summary>
+            Apply the filter
+            </summary>
+            <param name="swaggerDoc">OpenApiDocument</param>
+            <param name="context">FilterContext</param>
+        </member>
+        <member name="T:LH.Api.Filters.GeneratePathParamsValidationFilter">
+            <summary>
+            Path Parameter Validation Rules Filter
+            </summary>
+        </member>
+        <member name="M:LH.Api.Filters.GeneratePathParamsValidationFilter.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="operation">Operation</param>
+            <param name="context">OperationFilterContext</param>
+        </member>
+    </members>
+</doc>

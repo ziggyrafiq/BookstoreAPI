@@ -1,0 +1,175 @@
+openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: Books API
+  description: API that manages a collection of books in a fictional store
+  contact: 
+    name: Books API
+servers:
+- url: https://locaZRost:5001/
+paths:
+  /books:
+    post:
+      operationId: create-book
+      summary: Creates a new book
+      requestBody:
+        required: true
+        description: A JSON object that represents a book.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Book'
+            example:
+              title: Journey to the Center of the Earth 
+              author: Jules Verne
+              price: 10.99
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    format: int64
+                    description: Id of the created book.
+              example:
+                id: 4
+        '400':
+          description: Bad Request
+          content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    errors:
+                      type: array
+                      description: Error messages
+                      items: 
+                        type: object 
+                example:
+                  errors:
+                  - Title is required
+    get:
+      operationId: get-book
+      summary: Returns a list of books. Sorted by title by default.
+      parameters:
+        - in: query
+          name: sortby
+          schema:
+            type: string
+            enum:
+              - title
+              - author
+              - price
+      responses:
+        '200':
+          description: Success
+          content: 
+            application/json:
+              schema:
+                type: array
+                items: 
+                  $ref: "#/components/schemas/Book"
+  /books/{id}:
+    parameters:
+    - in: path
+      name: id
+      required: true
+      schema:
+        type: integer
+        format: int64
+    put:
+      operationId: update-book-by-id
+      summary: Update an existing book
+      requestBody:
+        required: true
+        description: A JSON object that represents a book.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Book'
+            example:
+              title: Journey to the Center of the Earth 
+              author: Jules Verne
+              price: 10.99
+      responses:
+        '200':
+          description: Success
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: array
+                    description: Error messages
+                    items: 
+                      type: object 
+              example:
+                errors:
+                - Title is required
+        '404': 
+          description: Book not found
+    get:
+      operationId: get-book-by-id
+      summary: Gets a book by id
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Book'
+              example:
+                title: Journey to the Center of the Earth 
+                author: Jules Verne
+                price: 10.99
+        '404': 
+          description: Book not found
+    delete:
+      operationId: delete-book-by-id
+      summary: Deletes a book by id
+      responses:
+        '200':
+          description: Success
+        '404': 
+          description: Book not found
+
+components:
+  schemas:
+    Book:
+      type: object
+      required:
+        - title
+        - author
+        - price
+      properties:
+        id:
+          type: integer
+          format: int64
+          readOnly: true
+        title:
+          type: string
+        author:
+          type: string
+        price:
+          type: number
+      example:
+        id: 4
+        title: Journey to the Center of the Earth 
+        author: Jules Verne
+        price: 10.99
+        
+          
+          
+          
+          
+          
+          
+          
+          

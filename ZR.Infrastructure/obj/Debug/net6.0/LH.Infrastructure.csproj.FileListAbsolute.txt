@@ -1,0 +1,14 @@
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\bin\Debug\net6.0\LH.Infrastructure.deps.json
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\bin\Debug\net6.0\LH.Infrastructure.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\bin\Debug\net6.0\LH.Infrastructure.pdb
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\obj\Debug\net6.0\LH.Infrastructure.csproj.AssemblyReference.cache
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\obj\Debug\net6.0\LH.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\obj\Debug\net6.0\LH.Infrastructure.AssemblyInfoInputs.cache
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\obj\Debug\net6.0\LH.Infrastructure.AssemblyInfo.cs
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\obj\Debug\net6.0\LH.Infrastructure.csproj.CoreCompileInputs.cache
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\obj\Debug\net6.0\LH.Infrastructure.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\obj\Debug\net6.0\refint\LH.Infrastructure.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\obj\Debug\net6.0\LH.Infrastructure.pdb
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\obj\Debug\net6.0\ref\LH.Infrastructure.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\bin\Debug\net6.0\LH.Infrastructure.runtimeconfig.json
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure\obj\Debug\net6.0\LH.Infrastructure.genruntimeconfig.cache

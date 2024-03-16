@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZR.Api", "ZR.Api\ZR.Api.csproj", "{518D78CC-47FC-46E0-A8B3-104E90D68D43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{823BAA83-57BF-49CE-BDDD-410C8BDDEF3E} = {823BAA83-57BF-49CE-BDDD-410C8BDDEF3E}
+		{4C085CC5-9670-449E-A86E-D886B223D915} = {4C085CC5-9670-449E-A86E-D886B223D915}
+		{200EB0DE-B1BC-46C3-904D-E8A699F5AA61} = {200EB0DE-B1BC-46C3-904D-E8A699F5AA61}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZR.Infrastructure", "ZR.Infrastructure\ZR.Infrastructure.csproj", "{200EB0DE-B1BC-46C3-904D-E8A699F5AA61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZR.Business", "ZR.Business\ZR.Business.csproj", "{4C085CC5-9670-449E-A86E-D886B223D915}"
+	ProjectSection(ProjectDependencies) = postProject
+		{200EB0DE-B1BC-46C3-904D-E8A699F5AA61} = {200EB0DE-B1BC-46C3-904D-E8A699F5AA61}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E9C7834-3A38-4855-BEC9-AD2535203FC9}"
+	ProjectSection(SolutionItems) = preProject
+		books.openapi.yaml = books.openapi.yaml
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+		REQUIRMENTS.md = REQUIRMENTS.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZR.Infrastructure.Migrations", "ZR.Infrastructure.Migrations\ZR.Infrastructure.Migrations.csproj", "{823BAA83-57BF-49CE-BDDD-410C8BDDEF3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{518D78CC-47FC-46E0-A8B3-104E90D68D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518D78CC-47FC-46E0-A8B3-104E90D68D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518D78CC-47FC-46E0-A8B3-104E90D68D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518D78CC-47FC-46E0-A8B3-104E90D68D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200EB0DE-B1BC-46C3-904D-E8A699F5AA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200EB0DE-B1BC-46C3-904D-E8A699F5AA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200EB0DE-B1BC-46C3-904D-E8A699F5AA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200EB0DE-B1BC-46C3-904D-E8A699F5AA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C085CC5-9670-449E-A86E-D886B223D915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C085CC5-9670-449E-A86E-D886B223D915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C085CC5-9670-449E-A86E-D886B223D915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C085CC5-9670-449E-A86E-D886B223D915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823BAA83-57BF-49CE-BDDD-410C8BDDEF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823BAA83-57BF-49CE-BDDD-410C8BDDEF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823BAA83-57BF-49CE-BDDD-410C8BDDEF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823BAA83-57BF-49CE-BDDD-410C8BDDEF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7744BB95-67AF-4F31-A352-0620E88AE88B}
+	EndGlobalSection
+EndGlobal

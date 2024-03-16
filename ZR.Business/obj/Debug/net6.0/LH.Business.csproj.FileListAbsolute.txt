@@ -1,0 +1,15 @@
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\bin\Debug\net6.0\LH.Business.deps.json
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\bin\Debug\net6.0\LH.Business.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\bin\Debug\net6.0\LH.Business.pdb
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\obj\Debug\net6.0\LH.Business.csproj.AssemblyReference.cache
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\obj\Debug\net6.0\LH.Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\obj\Debug\net6.0\LH.Business.AssemblyInfoInputs.cache
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\obj\Debug\net6.0\LH.Business.AssemblyInfo.cs
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\obj\Debug\net6.0\LH.Business.csproj.CoreCompileInputs.cache
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\obj\Debug\net6.0\LH.Business.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\obj\Debug\net6.0\refint\LH.Business.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\obj\Debug\net6.0\LH.Business.pdb
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\obj\Debug\net6.0\ref\LH.Business.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\bin\Debug\net6.0\LH.Infrastructure.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\bin\Debug\net6.0\LH.Infrastructure.pdb
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Business\obj\Debug\net6.0\LH.Business.csproj.CopyComplete

@@ -1,0 +1,17 @@
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\bin\Debug\net6.0\LH.Infrastructure.Migrations.deps.json
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\bin\Debug\net6.0\LH.Infrastructure.Migrations.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\bin\Debug\net6.0\LH.Infrastructure.Migrations.pdb
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\LH.Infrastructure.Migrations.csproj.AssemblyReference.cache
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\LH.Infrastructure.Migrations.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\LH.Infrastructure.Migrations.AssemblyInfoInputs.cache
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\LH.Infrastructure.Migrations.AssemblyInfo.cs
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\LH.Infrastructure.Migrations.csproj.CoreCompileInputs.cache
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\LH.Infrastructure.Migrations.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\refint\LH.Infrastructure.Migrations.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\LH.Infrastructure.Migrations.pdb
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\ref\LH.Infrastructure.Migrations.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\bin\Debug\net6.0\LH.Infrastructure.Migrations.runtimeconfig.json
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\LH.Infrastructure.Migrations.genruntimeconfig.cache
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\bin\Debug\net6.0\LH.Infrastructure.dll
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\bin\Debug\net6.0\LH.Infrastructure.pdb
+E:\OneDrive\Exercises\Lenus Health\Demo Project\Lenus Health Technical Exercise\LH.Infrastructure.Migrations\obj\Debug\net6.0\LH.Infrastructure.Migrations.csproj.CopyComplete
